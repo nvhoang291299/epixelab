@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap");
+@font-face {
+  font-family: Ageo;
+  src: url(../fonts/AgeoPersonalUse-Regular\ 400.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Ageo;
+  src: url(../fonts/AgeoPersonalUse-Medium\ 500.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Ageo;
+  src: url(../fonts/AgeoPersonalUse-Bold\ 700.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Ageo;
+  src: url(../fonts/AgeoPersonalUse-Heavy\ 850.otf);
+  font-weight: 850;
+}
+@font-face {
+  font-family: DM Sans;
+  src: url(../fonts/DMSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: DM Sans;
+  src: url(../fonts/DMSans-Regular.ttf);
+  font-weight: 400;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Ageo;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  padding: 48px 135px 28px 135px;
+}
+#header .row {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 114px;
+}
+#header .row .header-logo img {
+  width: 240px;
+  height: 49px;
+}
+#header .row .header-menu {
+  display: grid;
+  gap: 250px;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+#header .row .header-menu .navbar ul {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.5px;
+  gap: 40px;
+  list-style: none;
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: center;
+}
+#header .row .header-menu .navbar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+#header .row .header-menu .navbar ul li:hover {
+  font-weight: 700;
+}
+#header .row .header-menu .auth ul {
+  display: flex;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.5px;
+  list-style: none;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+}
+#header .row .header-menu .auth ul button {
+  border-radius: 10px;
+  background: #F60;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.5px;
+  border: none;
+}
+
+.header-section {
+  text-align: center;
+}
+.header-section .name-item {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8a898e;
+  line-height: 28.5px;
+  letter-spacing: 6.3px;
+  text-transform: uppercase;
+}
+.header-section .title {
+  margin-top: 19px;
+  color: #0B1B35;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 28.5px;
+  text-transform: capitalize;
+}
+
+.container {
+  width: 100%;
+  padding: 0 135px;
+}
+.container .section-one {
+  margin-bottom: 81.91px;
+  position: relative;
+}
+.container .section-one .text-content {
+  top: 88px;
+  width: 653px;
+  height: 338px;
+  position: absolute;
+}
+.container .section-one .text-content h2 {
+  margin-bottom: 16px;
+  color: #0B1B35;
+  font-size: 70px;
+  font-weight: 850;
+  line-height: 81px;
+  height: 260px;
+  padding-right: 120px;
+}
+.container .section-one .text-content p {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28.5px;
+  width: 555px;
+}
+.container .section-one .text-content .buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 61px;
+}
+.container .section-one .text-content .buttons button {
+  border: none;
+  text-transform: capitalize;
+  line-height: 28.5px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.container .section-one .text-content .buttons button:nth-child(1) {
+  font-weight: 500;
+  color: #fff;
+  padding: 11px 34px 9px 34px;
+  background-color: #F60;
+  margin-right: 28px;
+}
+.container .section-one .text-content .buttons button:nth-child(2) {
+  background-color: inherit;
+  font-weight: 700;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.container .section-one .text-content .buttons button:nth-child(2) img {
+  margin-right: 25px;
+}
+.container .section-one .image-section {
+  width: 707px;
+  height: 618.088px;
+  right: 0;
+}
+.container .section-one .image-section img {
+  position: absolute;
+  width: 100%;
+}
+.container .service {
+  display: grid;
+  grid-template-rows: auto;
+}
+.container .service .row {
+  display: grid;
+  grid-template-columns: 352px 352px 352px;
+  column-gap: 57px;
+  margin-top: 108px;
+  justify-content: space-between;
+}
+.container .service .row .service-item {
+  text-align: center;
+  border-radius: 28px;
+  background: #FFF;
+  box-shadow: 0px 2.76726px 2.21381px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 5.32008px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 10.01724px 0px rgba(0, 0, 0, 0.04), 0px 22.33631px 17.86905px 0px rgba(0, 0, 0, 0.04), 0px 41.77761px 33.42209px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+.container .service .row .service-item .icon-service {
+  margin-top: 30.53px;
+}
+.container .service .row .service-item .icon-service img {
+  width: 76.47px;
+  height: 76.47px;
+}
+.container .service .row .service-item .name-service {
+  margin-top: 41px;
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28.5px;
+  text-transform: capitalize;
+}
+.container .service .row .service-item .content-service {
+  padding: 32px 41px 45px 41px;
+}
+.container .service .row .service-item .content-service .desc-service {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.5px;
+  margin-bottom: 18px;
+  height: 187px;
+}
+.container .service .row .service-item .content-service .btn-detail {
+  border: none;
+  background-color: #F60;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.5px;
+  padding: 11px 36px 9px 36px;
+}
+.container .section-video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 147.47px;
+  margin-top: 108.01px;
+  height: 385.98px;
+}
+.container .section-video .introduce {
+  font-family: "DM Sans";
+  width: 335px;
+  margin-top: 17.13px;
+}
+.container .section-video .introduce h5 {
+  color: #1E0E62;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 20.51px;
+  margin-right: 46px;
+}
+.container .section-video .introduce p {
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right: 22px;
+}
+.container .section-video .introduce button {
+  color: #1E0E62;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 13px 37.68px 13.25px 38px;
+  border-radius: 100px;
+  border: 2px solid #EBEAED;
+  background-color: initial;
+  position: absolute;
+  bottom: 25.33px;
+}
+.container .section-video .video {
+  width: 688px;
+  background-image: url(../image/image-video.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .testmonials {
+  margin-top: 146.01px;
+}
+.container .testmonials .row {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 101px;
+}
+.container .testmonials .row .item-feedback {
+  display: flex;
+  gap: 30px;
+  padding: 35px 28px 23px 35px;
+  align-items: flex-start;
+}
+.container .testmonials .row .item-feedback .info-client .feedback {
+  width: 307px;
+  color: #0B1B35;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-right: 22px;
+}
+.container .testmonials .row .item-feedback .info-client .name-client {
+  margin-top: 13px;
+  color: #0B1B35;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+.container .our-team {
+  margin-top: 142px;
+}
+.container .our-team .row {
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  gap: 30px;
+  margin-top: 53px;
+}
+.container .our-team .row .card {
+  border-radius: 10px;
+  border: 2px solid #EBEAED;
+  text-align: center;
+}
+.container .our-team .row .card .avatar-member {
+  padding: 50px 0 28.8px 0;
+}
+.container .our-team .row .card .info-member {
+  margin-bottom: 35px;
+}
+.container .our-team .row .card .info-member h5 {
+  text-transform: capitalize;
+  color: #1E0E62;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 16.2px;
+}
+.container .our-team .row .card .info-member span {
+  color: rgba(21, 20, 57, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container .our-team .row .card .social {
+  border-top: 2px solid #EBEAED;
+  padding-top: 16.8px;
+}
+
+/*# sourceMappingURL=style.css.map */
