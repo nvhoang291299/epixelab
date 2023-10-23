@@ -1,0 +1,48 @@
+$dark-blue: #0B1B35;
+$black: #000;
+$orange: #f60;
+$dark-blue-red: #1E0E62;
+$matte-blue: rgba(21, 20, 57, 0.40);
+$greyish: #EBEAED;
+
+@font-face {
+    font-family: Ageo;
+    src: url(../fonts/AgeoPersonalUse-Regular\ 400.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Ageo;
+    src: url(../fonts/AgeoPersonalUse-Medium\ 500.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Ageo;
+    src: url(../fonts/AgeoPersonalUse-Bold\ 700.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Ageo;
+    src: url(../fonts/AgeoPersonalUse-Heavy\ 850.otf);
+    font-weight: 850;
+}
+
+@font-face {
+    font-family: DM Sans;
+    src: url(../fonts/DMSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: DM Sans;
+    src: url(../fonts/DMSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
