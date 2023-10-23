@@ -485,7 +485,8 @@ html {
   display: grid;
   grid-template-columns: 370px 370px 370px;
   margin-top: 53px;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
 .container .our-team .row .card {
   border-radius: 10px;
