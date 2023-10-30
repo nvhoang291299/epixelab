@@ -346,7 +346,7 @@ html {
 }
 .container .service {
   position: relative;
-  top: 130.82px;
+  margin-top: 212.82px;
 }
 .container .service .row {
   display: grid;
