@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap");
+@media only screen and (max-width: 1440px) {
+  .footer-left {
+    margin-right: 0px !important;
+  }
+}
 @media only screen and (max-width: 960px) {
   #header {
     padding: 30px 60px !important;
@@ -136,6 +141,7 @@
     gap: 30px !important;
   }
   #footer .footer-item .footer-right ul {
+    display: block !important;
     gap: 10px;
     justify-content: initial !important;
   }
@@ -187,7 +193,7 @@ html {
 
 #header {
   position: relative;
-  padding: 48px 135px 28px 135px;
+  padding: 48px 135px 36px 135px;
   max-width: 1440px;
   margin: auto;
 }
@@ -339,7 +345,8 @@ html {
   width: 100%;
 }
 .container .service {
-  margin-top: 81.91px;
+  position: relative;
+  top: 130.82px;
 }
 .container .service .row {
   display: grid;

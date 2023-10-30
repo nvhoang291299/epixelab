@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1440px) {
+    .footer-left {
+        margin-right: 0px !important;
+    }
+}
+
 @media only screen and (max-width: 960px) {
 
     #header {
@@ -210,6 +216,7 @@
             .footer-right {
 
                 ul {
+                    display: block !important;
                     gap: 10px;
                     justify-content: initial !important;
                 }
