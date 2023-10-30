@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap");
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1439px) {
   .footer-left {
     margin-right: 0px !important;
   }
