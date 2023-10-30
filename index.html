@@ -64,9 +64,7 @@
                 </div>
                 <div class="row">
                     <div class="service-item">
-                        <div class="icon-service">
-                            <img src="./assets/image/icon/activity.svg" alt="">
-                        </div>
+                            <img src="./assets/image/icon/activity.svg" alt="" width="76" height="76">
                         <h5 class="name-service">
                             graphic design
                         </h5>
@@ -81,9 +79,7 @@
                         </div>
                     </div>
                     <div class="service-item">
-                        <div class="icon-service">
-                            <img src="./assets/image/icon/video.svg" alt="">
-                        </div>
+                            <img src="./assets/image/icon/video.svg" alt="" width="76" height="57" class="item-video">
                         <h5 class="name-service">
                             video editing
                         </h5>
@@ -98,9 +94,7 @@
                         </div>
                     </div>
                     <div class="service-item">
-                        <div class="icon-service">
-                            <img src="./assets/image/icon/chart.svg" alt="">
-                        </div>
+                            <img src="./assets/image/icon/chart.svg" alt="" width="76" height="76">
                         <h5 class="name-service">
                             digital marketing
                         </h5>
@@ -295,6 +289,25 @@
         <p>Startup Framework contains components and complex blocks which can easily be integrated into almost any
             design.</p>
     </footer>
+    <script>
+        const person = {
+            firstName: "Hoang",
+            lastName: "Nguyen",
+            fullName: function (param1, param2) {
+                return this.lastName + " " + this.firstName + " " + param1 + " " + param2
+            }
+        }
+
+        const student = {
+            firstName: "Abc",
+            lastName: "Xyz"
+        }
+
+        const arr = ['honda', 'yamaha'];
+
+        const person1 = person.fullName.apply(student, arr)
+        console.log(person1);
+    </script>
 </body>
 
 </html>

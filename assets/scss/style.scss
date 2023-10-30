@@ -66,10 +66,10 @@ html {
                 justify-content: center;
 
                 button {
+                    font-family: Ageo;
                     border-radius: 10px;
                     background: $orange;
-                    border-radius: 10px;
-                    padding: 10px 30px;
+                    padding: 10px 28px;
                     color: #fff;
                     font-size: 18px;
                     font-weight: 500;
@@ -146,6 +146,7 @@ html {
                 margin-top: 61px;
 
                 button {
+                    font-family: Ageo;
                     border: none;
                     text-transform: capitalize;
                     line-height: 28.5px;
@@ -158,7 +159,7 @@ html {
                     color: #fff;
                     padding: 10px 34px;
                     background-color: $orange;
-                    margin-right: 28px;
+                    margin: 5px 28px 6px 0;
                 }
 
                 button:nth-child(2) {
@@ -188,7 +189,7 @@ html {
     }
 
     .service {
-        margin-top: 163.82px;
+        margin-top: 81.91px;
 
         .row {
             display: grid;
@@ -207,17 +208,17 @@ html {
                     0px 41.77761px 33.42209px 0px rgba(0, 0, 0, 0.05),
                     0px 100px 80px 0px rgba(0, 0, 0, 0.07);
 
-                .icon-service {
-                    margin-top: 30.53px;
+                img {
+                    margin-top: 30px;
+                    margin-bottom: 42px;
+                }
 
-                    img {
-                        width: 76.47px;
-                        height: 76.47px;
-                    }
+                .item-video {
+                    margin-top: 49px;
                 }
 
                 .name-service {
-                    margin-top: 41px;
+                    // margin-top: 42px;
                     color: $black;
                     font-size: 36px;
                     font-weight: 700;
@@ -238,6 +239,7 @@ html {
                     }
 
                     .btn-detail {
+                        font-family: Ageo;
                         border: none;
                         background-color: $orange;
                         text-transform: capitalize;
@@ -256,11 +258,11 @@ html {
     .section-video {
         display: flex;
         justify-content: space-between;
-        margin-top: 108.01px;
+        margin-top: 181.01px;
         height: 385.98px;
 
         .introduce {
-            font-family: 'DM Sans';
+            font-family: DM Sans;
             width: 335px;
             margin-top: 17.13px;
             position: relative;
@@ -283,6 +285,7 @@ html {
             }
 
             button {
+                font-family: DM Sans;
                 color: $dark-blue-red;
                 font-size: 16px;
                 font-weight: 500;
@@ -322,6 +325,10 @@ html {
                 gap: 30px;
                 padding: 35px 28px 23px 35px;
                 align-items: flex-start;
+
+                img {
+                    margin-top: 1px;
+                }
 
                 .info-client {
                     width: 307px;
@@ -441,6 +448,7 @@ html {
 
                 input {
                     width: 100%;
+                    max-height: 77px;
                     border-radius: 49px;
                     border: 1px solid rgba(0, 0, 0, 0.18);
                     background: #FFF;
@@ -453,7 +461,8 @@ html {
                     color: $black;
                     font-family: 'Roboto';
                     font-size: 24px;
-                    padding: 24px 0 24px 67px;
+                    padding: 24px 67px 24px 67px;
+                    font-weight: 400;
                 }
 
                 input::placeholder {
@@ -493,6 +502,7 @@ html {
         .footer-left {
             display: flex;
             gap: 90px;
+            margin-right: 141px;
 
             img {
                 width: 111px;
@@ -512,12 +522,27 @@ html {
 
             ul {
                 display: flex;
-                justify-content: space-between;
+                // justify-content: center;
                 list-style: none;
                 color: $dark-blue-red;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 26px;
+
+                li:nth-child(1),
+                li:nth-child(2){
+                    margin-right: 39px;
+                }
+
+                li:nth-child(3)
+                {
+                    margin-right: 42px;
+                }
+
+                li:nth-child(4)
+                {
+                    margin-right: 41px;
+                }
             }
         }
     }

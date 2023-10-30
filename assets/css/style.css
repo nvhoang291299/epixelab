@@ -235,10 +235,10 @@ html {
   justify-content: center;
 }
 #header .row .header-menu .auth ul button {
+  font-family: Ageo;
   border-radius: 10px;
   background: #f60;
-  border-radius: 10px;
-  padding: 10px 30px;
+  padding: 10px 28px;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
@@ -306,6 +306,7 @@ html {
   margin-top: 61px;
 }
 .container .section-one .text-content .buttons button {
+  font-family: Ageo;
   border: none;
   text-transform: capitalize;
   line-height: 28.5px;
@@ -317,7 +318,7 @@ html {
   color: #fff;
   padding: 10px 34px;
   background-color: #f60;
-  margin-right: 28px;
+  margin: 5px 28px 6px 0;
 }
 .container .section-one .text-content .buttons button:nth-child(2) {
   background-color: inherit;
@@ -338,7 +339,7 @@ html {
   width: 100%;
 }
 .container .service {
-  margin-top: 163.82px;
+  margin-top: 81.91px;
 }
 .container .service .row {
   display: grid;
@@ -352,15 +353,14 @@ html {
   background: #FFF;
   box-shadow: 0px 2.76726px 2.21381px 0px rgba(0, 0, 0, 0.02), 0px 6.6501px 5.32008px 0px rgba(0, 0, 0, 0.03), 0px 12.52155px 10.01724px 0px rgba(0, 0, 0, 0.04), 0px 22.33631px 17.86905px 0px rgba(0, 0, 0, 0.04), 0px 41.77761px 33.42209px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
 }
-.container .service .row .service-item .icon-service {
-  margin-top: 30.53px;
+.container .service .row .service-item img {
+  margin-top: 30px;
+  margin-bottom: 42px;
 }
-.container .service .row .service-item .icon-service img {
-  width: 76.47px;
-  height: 76.47px;
+.container .service .row .service-item .item-video {
+  margin-top: 49px;
 }
 .container .service .row .service-item .name-service {
-  margin-top: 41px;
   color: #000;
   font-size: 36px;
   font-weight: 700;
@@ -379,6 +379,7 @@ html {
   height: 187px;
 }
 .container .service .row .service-item .content-service .btn-detail {
+  font-family: Ageo;
   border: none;
   background-color: #f60;
   text-transform: capitalize;
@@ -392,11 +393,11 @@ html {
 .container .section-video {
   display: flex;
   justify-content: space-between;
-  margin-top: 108.01px;
+  margin-top: 181.01px;
   height: 385.98px;
 }
 .container .section-video .introduce {
-  font-family: "DM Sans";
+  font-family: DM Sans;
   width: 335px;
   margin-top: 17.13px;
   position: relative;
@@ -417,6 +418,7 @@ html {
   margin-right: 22px;
 }
 .container .section-video .introduce button {
+  font-family: DM Sans;
   color: #1E0E62;
   font-size: 16px;
   font-weight: 500;
@@ -452,6 +454,9 @@ html {
   gap: 30px;
   padding: 35px 28px 23px 35px;
   align-items: flex-start;
+}
+.container .testmonials .row .item-feedback img {
+  margin-top: 1px;
 }
 .container .testmonials .row .item-feedback .info-client {
   width: 307px;
@@ -553,6 +558,7 @@ html {
 }
 .container .contact .row .form-contact input {
   width: 100%;
+  max-height: 77px;
   border-radius: 49px;
   border: 1px solid rgba(0, 0, 0, 0.18);
   background: #FFF;
@@ -560,7 +566,8 @@ html {
   color: #000;
   font-family: "Roboto";
   font-size: 24px;
-  padding: 24px 0 24px 67px;
+  padding: 24px 67px 24px 67px;
+  font-weight: 400;
 }
 .container .contact .row .form-contact input::placeholder {
   color: #000;
@@ -594,6 +601,7 @@ html {
 #footer .footer-item .footer-left {
   display: flex;
   gap: 90px;
+  margin-right: 141px;
 }
 #footer .footer-item .footer-left img {
   width: 111px;
@@ -608,12 +616,21 @@ html {
 }
 #footer .footer-item .footer-right ul {
   display: flex;
-  justify-content: space-between;
   list-style: none;
   color: #1E0E62;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+#footer .footer-item .footer-right ul li:nth-child(1),
+#footer .footer-item .footer-right ul li:nth-child(2) {
+  margin-right: 39px;
+}
+#footer .footer-item .footer-right ul li:nth-child(3) {
+  margin-right: 42px;
+}
+#footer .footer-item .footer-right ul li:nth-child(4) {
+  margin-right: 41px;
 }
 #footer hr {
   height: 2px;
